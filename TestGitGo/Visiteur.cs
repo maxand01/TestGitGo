@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestGitGo
 {
-    public class Visiteur 
+    public class Visiteur : Personne
     {
         public Visiteur() : base()
         {
