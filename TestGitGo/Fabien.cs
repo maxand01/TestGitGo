@@ -8,5 +8,6 @@ namespace TestGitGo
 {
     class Fabien
     {
+        
     }
 }
