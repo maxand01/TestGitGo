@@ -11,6 +11,14 @@ namespace TestGitGo
         public string Nom { get; set; }
         public string Prenom { get; set; }
 
-        
+        public Personne()
+        {
+
+        }
+        public Personne(string nom, string prenom)
+        {
+            this.Nom = nom;
+            this.Prenom = prenom;
+        }
     }
 }

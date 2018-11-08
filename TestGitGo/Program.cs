@@ -14,6 +14,8 @@ namespace TestGitGo
             p1.Nom = "Ketchum";
             p1.Prenom = "Sacha";
             Console.WriteLine(p1.Nom + " " + p1.Prenom);
+            Personne p2 = new Personne("Chen","Regis");
+            Console.WriteLine(p2.Nom + " " + p2.Prenom);
 
             Console.ReadKey();
 
