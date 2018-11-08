@@ -20,5 +20,10 @@ namespace TestGitGo
             this.Nom = nom;
             this.Prenom = prenom;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $"Pokemon GO {Nom} {Prenom}";
+        }
     }
 }
